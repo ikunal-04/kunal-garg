@@ -22,7 +22,7 @@ import { DiRedis } from 'react-icons/di';
 import { IoLogoJavascript } from 'react-icons/io5';
 import { FaPhp } from 'react-icons/fa';
 import { FaJava } from 'react-icons/fa';
-import { SiSolidity, SiHardhat, SiTailwindcss, SiZustand, SiPostgresql, SiCloudflare, SiNodedotjs, SiLua, SiEthereum } from 'react-icons/si';
+import { SiSolidity, SiTailwindcss, SiPostgresql, SiCloudflare, SiNodedotjs, SiLua, SiEthereum } from 'react-icons/si';
 
 export const techIconMap: Record<string, IconType> = {
   'Next.js': SiNextdotjs,
@@ -53,9 +53,7 @@ export const techIconMap: Record<string, IconType> = {
   PHP: FaPhp,
   Java: FaJava,
   Solidity: SiSolidity,
-  Hardhat: SiHardhat,
   TailwindCSS: SiTailwindcss,
-  Zustand: SiZustand,
   PostgreSQL: SiPostgresql,
   Cloudflare: SiCloudflare,
   'Node.js': SiNodedotjs,
