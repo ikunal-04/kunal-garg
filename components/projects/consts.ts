@@ -163,23 +163,22 @@ export const projects: ProjectCardProps[] = [
     github: 'https://github.com/ikunal-04/aura',
     website: 'https://www.onchainaura.fun/',
   },
-  {
-    title: 'ResolutionDAO',
-    subTitle:
-      'Decentralized autonomous organization platform for creating and voting on proposals with comprehensive governance features',
-    description:
-      'ResolutionDAO is a comprehensive governance platform that enables decentralized decision-making through sophisticated proposal creation and voting mechanisms. The platform provides a complete DAO infrastructure with advanced governance features, allowing communities to submit proposals, participate in discussions, vote on decisions, and execute approved proposals autonomously.',
-    technologies: [
-      'Next.js',
-      'TypeScript',
-      'Solidity',
-      'Hardhat',
-      'TailwindCSS',
-    ],
-    details:
-      'ResolutionDAO features a complete DAO governance system with proposal submission workflows, advanced voting mechanisms, and automated execution of approved proposals. Smart contracts built with Solidity handle all governance logic, while the frontend provides an intuitive interface for community interaction. The platform includes features like delegation systems, voting power calculations, proposal lifecycle management, treasury management, and comprehensive governance analytics.',
-    graphic: '/projects/resolutiondao-preview.png',
-    github: 'https://github.com/ikunal-04/resolutiondao',
-    website: '#',
+  { 
+    title: 'Numpay', 
+    subTitle: 'DeFi payment platform enabling seamless USDC transfers using just mobile numbers, built on Base blockchain', 
+    description: 'Numpay is a decentralized payments application that simplifies stablecoin transactions by allowing users to send and request USDC on Base using mobile numbers instead of wallet addresses. It eliminates the complexity of managing long wallet addresses and provides an easy-to-use interface for everyday crypto payments.', 
+    technologies: [ 
+      'Next.js', 
+      'TypeScript', 
+      'TailwindCSS', 
+      'Node.js', 
+      'Express.js', 
+      'MongoDB', 
+      'Ethers.js', 
+    ], 
+    details: 'Numpay leverages Base blockchain and USDC to provide a frictionless payments experience. Users can register their mobile numbers to link with wallet addresses, send or request payments, and manage transactions securely. The platform is designed for ease-of-use and mainstream adoption of crypto payments. Built with Next.js and TypeScript frontend, Express.js and MongoDB backend, and Ethers.js for blockchain interaction.', 
+    graphic: '/projects/numpay-preview.png', 
+    github: 'https://github.com/ikunal-04/cashtide', 
+    website: 'https://app.numpay.app/', 
   },
 ];
