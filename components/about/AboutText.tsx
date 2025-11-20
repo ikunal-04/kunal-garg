@@ -15,7 +15,7 @@ export const AboutText = () => {
       <div>
         I have experience working as a{' '}
         <span className='underline'>Fullstack Blockchain Developer Intern at Buildorz</span>,{' '}
-        <span className='underline'>Software Engineer Intern at Orchids</span>, and{' '}
+        <span className='underline'>Software Engineer Intern at Orchids (YC W25)</span>, and{' '}
         <span className='underline'>Backend Developer Intern at Inggage</span>. I've also worked as a{' '}
         <span className='underline'>Frontend Engineer at BizOAlly</span>, where
         I developed skills in full-stack development, AI integration, and modern web frameworks. More information about my work experience can be viewed in{' '}
