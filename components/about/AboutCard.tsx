@@ -19,7 +19,7 @@ export const AboutCard = () => {
         <CardHeader>
           <CardTitle>About me</CardTitle>
           <CardDescription>
-            Full-Stack Developer specializing in AI-Powered Applications
+            Full-Stack AI Engineer — production LLM agents &amp; the systems around them
           </CardDescription>
         </CardHeader>
         <CardContent className='flex flex-col-reverse items-center gap-x-10 gap-y-8 md:flex-row'>

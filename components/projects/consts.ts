@@ -80,8 +80,28 @@ export const projects: ProjectCardProps[] = [
     details:
       'Innpae leverages advanced AI models to understand requirements and generate optimized backend code. The platform supports multiple tech stack configurations, produces production-ready TypeScript code, generates database schemas and setup scripts, and enables rapid prototyping. Built with Next.js for the frontend and Supabase for backend services. Features include intelligent code generation, multiple framework support, comprehensive API documentation generation, and streamlined development workflow for startups and individual developers.',
     graphic: '/projects/innpae-preview.png',
-    github: 'https://github.com/ikunal-04/agent',
+    github: 'https://github.com/ikunal-04/innpae',
     website: 'https://www.innpae.com/',
+  },
+  {
+    title: 'Euno',
+    subTitle:
+      'A real-time AI voice companion you can actually talk to — low-latency speech with memory that persists across conversations',
+    description:
+      'Euno is a real-time, voice-first AI companion. You speak, it listens and talks back with low latency, and it remembers context across sessions so conversations pick up where they left off — closer to talking with something that knows you than a stateless chatbot.',
+    technologies: [
+      'Next.js',
+      'TypeScript',
+      'Python',
+      'FastAPI',
+      'WebSockets',
+      'mem0',
+    ],
+    details:
+      'Euno streams audio over WebSockets for low-latency, full-duplex conversation, with a FastAPI backend orchestrating speech and the language model. Long-term memory is handled with mem0 so the assistant retains context across sessions, and the frontend is built with Next.js and TypeScript for a responsive, real-time interface.',
+    graphic: '',
+    github: 'https://github.com/ikunal-04/euno',
+    website: 'https://euno.live/',
   },
   {
     title: 'aoVest',
@@ -100,7 +120,6 @@ export const projects: ProjectCardProps[] = [
     details:
       'aoVest integrates with the Arweave ecosystem using AOS (Arweave Operating System) for blockchain interactions. The platform features automated token transfer mechanisms, customizable vesting schedules, and a responsive UI built with React.js and TailwindCSS. The modular architecture allows for easy updates and feature additions, while Lua scripts handle the blockchain logic. Zustand manages state efficiently across the application.',
     graphic: '/projects/aovest-preview.png',
-    github: 'https://github.com/ikunal-04/aovest',
     website: 'https://ao-vest.ar-io.net/',
   },
   {
@@ -178,7 +197,7 @@ export const projects: ProjectCardProps[] = [
     ], 
     details: 'Numpay leverages Base blockchain and USDC to provide a frictionless payments experience. Users can register their mobile numbers to link with wallet addresses, send or request payments, and manage transactions securely. The platform is designed for ease-of-use and mainstream adoption of crypto payments. Built with Next.js and TypeScript frontend, Express.js and MongoDB backend, and Ethers.js for blockchain interaction.', 
     graphic: '/projects/numpay-preview.png', 
-    github: 'https://github.com/ikunal-04/cashtide', 
+    github: 'https://github.com/ikunal-04/numpay',
     website: 'https://app.numpay.app/', 
   },
 ];

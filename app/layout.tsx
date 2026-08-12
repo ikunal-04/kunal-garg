@@ -8,7 +8,8 @@ import { Analytics } from '@vercel/analytics/next';
 const inter = Inter({ subsets: ['latin'] });
 
 const title = 'Kunal Garg';
-const description = 'In search of software that brings joy to people';
+const description =
+  'Full-Stack AI Engineer building production LLM agents. Currently @ OnFinance AI.';
 
 export const metadata: Metadata = {
   title,

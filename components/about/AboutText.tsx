@@ -10,27 +10,41 @@ export const AboutText = () => {
   return (
     <div className='flex flex-col gap-y-3 text-sm md:text-[1rem] md:leading-snug'>
       <div>
-        Hi! I am Kunal Garg, a passionate full-stack developer specializing in AI-powered applications and modern web interfaces. I focus on building digital experiences that merge artificial intelligence with seamless user interfaces. I am an avid learner who loves to collaborate with others and is always ready for a challenge to deepen my understanding of technology!
+        Hi, I&apos;m Kunal — a full-stack engineer who builds AI products for a
+        living. Right now I&apos;m a{' '}
+        <span className='underline'>Full Stack AI Engineer at OnFinance AI</span>
+        , where I ship production LLM agents with LangGraph and LangChain, traced
+        end-to-end with Langfuse, and work on the data infra behind them — I
+        recently moved our log streaming from Athena to Trino and made our writes
+        vendor-agnostic on GCP Pub/Sub.
       </div>
       <div>
-        I have experience working as a{' '}
-        <span className='underline'>Fullstack Blockchain Developer Intern at Buildorz</span>,{' '}
-        <span className='underline'>Software Engineer Intern at Orchids (YC W25)</span>, and{' '}
-        <span className='underline'>Backend Developer Intern at Inggage</span>. I've also worked as a{' '}
-        <span className='underline'>Frontend Engineer at BizOAlly</span>, where
-        I developed skills in full-stack development, AI integration, and modern web frameworks. More information about my work experience can be viewed in{' '}
+        Before this I was a{' '}
+        <span className='underline'>Software Engineer at Bud (formerly Orchids, YC W25)</span>{' '}
+        in the Bay Area, a{' '}
+        <span className='underline'>Full-stack Developer at Buildorz</span>{' '}
+        building on-chain apps, and a{' '}
+        <span className='underline'>Frontend Developer at BizOAlly</span>. The
+        full history is in{' '}
         <LinkText href='https://drive.google.com/file/d/1SMBcz4fTcQZgL5kULlhErXAxXzCXGAAu/view?usp=drive_link'>
           my resume
         </LinkText>
         .
       </div>
       <div>
-        My flagship project is{' '}
-        <span className='underline'>Innpae</span> - an AI-powered platform that generates backend APIs from natural language prompts. I've also built innovative projects exploring various technologies and received recognition as an{' '}
-        <span className='underline'>Arweave India Hacker House Winner</span> with a $3,000 bounty and received $5,000 funding for a hackathon project, showcasing my versatility across different tech domains.
+        On the side I build a lot. Two I&apos;m proud of:{' '}
+        <span className='underline'>Innpae</span>, which generates
+        production-ready backend APIs from a plain-English prompt, and{' '}
+        <span className='underline'>Euno</span>, a real-time AI voice companion
+        you can actually talk to. Along the way I won the{' '}
+        <span className='underline'>Arweave India Hacker House</span> ($3,000
+        bounty) and picked up $5,000 in hackathon funding.
       </div>
       <div>
-        I specialize in technologies like TypeScript, JavaScript, React.js, Next.js, Node.js, Python, and work with databases including MongoDB, PostgreSQL, and Supabase. I'm passionate about integrating AI into full-stack applications and creating intelligent, user-friendly solutions.
+        I mostly work in TypeScript and Python — Next.js and React on the front,
+        FastAPI and Node on the back, with Postgres, MongoDB and Redis behind
+        them. These days most of my time goes into LLM agents: tracing, evals,
+        memory, and the unglamorous work of making them reliable in production.
       </div>
       <div className='pt-3' />
       <div className='flex flex-wrap gap-3'>
