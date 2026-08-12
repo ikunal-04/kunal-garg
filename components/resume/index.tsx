@@ -29,7 +29,7 @@ export const ResumeSection = () => {
     <div className='flex flex-col items-center gap-y-8' ref={ref} id={resumeId}>
       <div className='text-2xl md:text-[40px]'>Download resume</div>
       <Link
-        href='https://drive.google.com/file/d/1SMBcz4fTcQZgL5kULlhErXAxXzCXGAAu/view?usp=sharing'
+        href='https://drive.google.com/file/d/1PWuUBcewTgdw9b5rkOlgTH_oMtQMyPGu/view?usp=sharing'
         target='_blank'
       >
         <Button variant='outline' className='flex w-fit gap-x-1'>

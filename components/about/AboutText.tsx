@@ -26,7 +26,7 @@ export const AboutText = () => {
         building on-chain apps, and a{' '}
         <span className='underline'>Frontend Developer at BizOAlly</span>. The
         full history is in{' '}
-        <LinkText href='https://drive.google.com/file/d/1SMBcz4fTcQZgL5kULlhErXAxXzCXGAAu/view?usp=drive_link'>
+        <LinkText href='https://drive.google.com/file/d/1PWuUBcewTgdw9b5rkOlgTH_oMtQMyPGu/view?usp=drive_link'>
           my resume
         </LinkText>
         .
@@ -49,7 +49,7 @@ export const AboutText = () => {
       <div className='pt-3' />
       <div className='flex flex-wrap gap-3'>
         <Link
-          href='https://drive.google.com/file/d/1SMBcz4fTcQZgL5kULlhErXAxXzCXGAAu/view?usp=drive_link'
+          href='https://drive.google.com/file/d/1PWuUBcewTgdw9b5rkOlgTH_oMtQMyPGu/view?usp=drive_link'
           target='_blank'
         >
           <Button variant='outline' className='flex w-fit gap-x-1'>
